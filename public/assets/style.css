@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #0000003f;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    padding: 40px;
+    z-index: 9;
+    font-family: SatoshiMedium;
+  
+}
+
+nav a:hover{
+    color:#9DD0FF;
+ }
+
+a, a:hover, a:active, a:focus, a:visited{
+    color:#ffffff;
+    text-decoration:none;
+    font-size: 18px;
+    margin: 30px;
+}
